@@ -1,0 +1,125 @@
+body {
+    background-color: #555555;
+}
+
+.main{
+    width: 800px;  /*Aquíiiii xd*/
+    margin: 30px auto 0px;
+}
+
+.header{
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.header h1,
+.header h2{
+    margin: 0;
+}
+
+.header h2{
+    color: #999999;
+    opacity: .5;
+}
+
+
+
+.content{
+    background-color: #ffffff;
+    /*height: 500px;*/
+    box-shadow: 0 0 10px 0px;
+}
+
+.menu{
+    background: rgb(255,123,0);
+    background: linear-gradient(180deg, rgba(255,123,0,1) 0%, rgba(255,156,35,1) 36%);
+    color:#ffffff;
+    list-style: none; /*Sin viñetas el <ul>*/
+    padding-left: 0;
+    font-weight: bolder;
+    display: flex;
+    padding: 0px 10px; /*Al padre (ul)*/
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.menu li a{/*Leganamos al navegador (siendo + específico)*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content h1{
+    color: #FF8308;
+    text-decoration: underline;
+}
+
+.contentInfo{
+    margin-top: 0px;
+    display: flex;
+    padding: 0px 10px;
+}
+
+.imagen{
+    border-color: #CCCCCC;
+}
+
+.parte1{
+    height: auto;
+    width: 650px;
+    padding: 0px 10px;
+}
+
+
+.parte2{
+    height: 500px;
+    width: 200px;
+    padding: 10px;
+    border-left: 1px outset #CCCCCC;
+
+}
+
+.parte2 h2{
+    color: #747474;
+    font-size: large;
+    font-family: system-ui;
+}
+
+.parte2 ul{ /*Quitar espacio por defecto del navegador*/
+    margin: 0;
+    padding: 0;
+}
+
+/*.parte2 a{
+    margin: 5px;
+}*/
+.parte2 li a{
+    color: #FF8C1A;
+    font-family: sans-serif;
+    text-decoration-line: none;
+    display: block;
+    /*float: inline-end;*/
+    /*line-height: 2em;*/
+}
+.footer{
+    color: #CDCDCD;
+    padding: 15px;
+    font-family: system-ui;
+
+}
+
+/*
+.header{
+    margin: 80px 200px 80px 200px;
+}
+
+
+.header{ //Centrar
+    margin-top: 80px;
+    margin-bottom: 30 px;
+    margin-right: 100px;
+    margin-left: 200px;
+}
+*/
